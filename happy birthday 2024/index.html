@@ -50,14 +50,14 @@
                         <i class="fa-regular fa-envelope"></i>
                     </button>
                     <audio id="birthday-audio">
-                        <source src="" type="audio/mpeg">
+                        <source src="./amthanh/chucmung.mp3" type="audio/mpeg">
                       </audio>
                 </div>
             </div>
             <div class="right">
                 <div class="box__account">
                     <div class="image">
-                        <img src="./images/newy3.jpg" alt="">
+                        <img src="./images/yen.jpg" alt="">
                     </div>
                     <div class="name">
                         <i class="fa-solid fa-heart"></i>
@@ -89,6 +89,7 @@
                         <span style="--i: 14;">y</span>
                         <span style="--i: 15;">-</span>
                     </div>
+                    <i class="fa-solid fa-heart"></i>
                 </div>
                 <span class="day">
                     
@@ -138,7 +139,6 @@
                             </div>
                             <div class="text__letter">
                                  <p></p>
-                                    <img id="qr-code" src="./images/QRCODE.jpg" alt="QR code" width="120" style="display: none; margin-top: 12px;">
                             </div>
                             <img id="mewmew" width="80" src="./images/mewmew.gif" alt="">
                         </div>
@@ -153,7 +153,7 @@
 </body>
 <script>
     let datetxt = "24-06-2005";
-    let datatxtletter = "Chúc Yến sinh nhật dui dẻ hê , gia nhập U30 rồi hê ,chúc Yến tuổi mới qua môn đều đều, sớm lụm học bổng, sớm có ngiu, sớm có nhà, sớm có xe, sớm có tiền, sớm có con, sớm có chồng, sớm có vợ, sớm có tất cả mấy cái Yến muốn. ĐỪNG CÓ THÍCH BIỂN VÀ ĐỪNG CÓ NHAI CHIỆN CŨ NỮA NGHE . Không cần xúc động đâu chuyển tiền vào tkhoan tu là đc r, có cái QR gắn đó quét mã cho khỏe nghe !!! ";
+    let datatxtletter = "Chúc yến sinh nhật dui dẻ nè, điểm cao, qua môn hết ha, nào có đồ ăn thì để phần cho huy nha, mong tuổi mới yến đừng mở miệng là chê nữa ha tính Huy lóng sợ mất kiểm soát <3. ";
     let titleLetter = "Gửi Yến";
     let charArrDate = datetxt.split('');
     let charArrDateLetter = datatxtletter.split('');
@@ -219,9 +219,7 @@
                     currentIndexLetter++;
                 }
                 else{
-                   clearInterval(intervalContent);
-document.getElementById("qr-code").style.display = "block";
-
+                    clearInterval(intervalContent)
                 }
             },50)
         },6000)
@@ -281,3 +279,5 @@ document.getElementById("qr-code").style.display = "block";
     
 </script>
 </html>
+
+<!--https://baohuy6505.github.io/happy/-->
